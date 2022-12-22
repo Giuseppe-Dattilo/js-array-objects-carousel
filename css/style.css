@@ -1,0 +1,59 @@
+/* Reset */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Generics */
+
+body{
+font-family: sans-serif;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+img{
+max-width: 100%;
+display: inline-block;
+object-fit: cover;
+border-radius: 10px;
+}
+
+/* Carousel */
+#carousel{
+height: 300px;
+width: 500px;
+margin: 50px auto;
+position:relative;
+}
+
+/* #gallery{
+height: 100%;
+} */
+/* 
+.gallery img.active {
+display: block;
+} */
+
+/* Button */
+
+#carousel .fas{
+font-size: 2rem;
+position: absolute;
+top: 90%;
+transform: translate(-50%);
+cursor: pointer;
+}
+
+#prev {
+right: 550px;
+}
+
+#next {
+left: 550px;
+}
